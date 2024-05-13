@@ -8,6 +8,7 @@ public class ContaTerminal {
         String nomeCliente;
         double saldo;
         Scanner teclado = new Scanner(System.in);
+        
 
         System.out.println("Por favor, digite o seu nome!");
         nomeCliente = teclado.nextLine();
@@ -20,6 +21,7 @@ public class ContaTerminal {
 
         System.out.println("Digite seu saldo bancário!");
         saldo = teclado.nextDouble();
+
 
         System.out.println("Olá " + nomeCliente + ", obrigado por criar uma conta em nosso " +
         "banco, sua agência é " + agencia + ", conta " + num + " e seu saldo " + saldo +" já está disponível para saque");
