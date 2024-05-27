@@ -1,7 +1,7 @@
 
 # Emerson
 
-## Desafio da plataforma Desafio
+## Desafio da plataforma DIO
 
 O desafio consiste em criar um projeto que simula um sistema de banco que possa ser utilizado através do terminal.
 
