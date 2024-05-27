@@ -29,6 +29,7 @@ public class Contador {
 
 		}else{
 			int contagem = parametroDois - parametroUm;
+
 			for(int n = 1; n <= contagem; n++){
 				System.out.println("Imprimindo o número: " + n);
 			}
