@@ -8,6 +8,8 @@ O desafio consiste em criar um diagrama de classes que esquematiza os aplicativo
 
 O diagrama de classes demonstra como funciona as interfaces e como a classe implementa os métodos de todas estas de uma vez, tal como o iphone faz.
 
+<img src="img/DesafioDiagramacaoUMLIphone/UMLIphone.jpg">
+
 ## Conecte-se comigo
 
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Emerson2310)
