@@ -8,7 +8,7 @@ O desafio consiste em criar um diagrama de classes que esquematiza os aplicativo
 
 O diagrama de classes demonstra como funciona as interfaces e como a classe implementa os métodos de todas estas de uma vez, tal como o iphone faz.
 
-<img src="img/DesafioDiagramacaoUMLIphone/UMLIphone.jpg">
+<img src="/UMLIphone.jpeg/">
 
 ## Conecte-se comigo
 
