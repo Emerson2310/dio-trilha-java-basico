@@ -1,2 +1,4 @@
-package list.operacoesBasicas;public class Item {
+package list.operacoesBasicas;
+
+public class Item {
 }

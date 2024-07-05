@@ -1,2 +1,4 @@
-package list.operacoesBasicas;public class Carrinho {
+package list.operacoesBasicas;
+
+public class Carrinho {
 }
