@@ -33,4 +33,13 @@ public class Item {
     public void setQtde(int qtde) {
         this.qtde = qtde;
     }
+
+    @Override
+    public String toString() {
+        return "\nItem{" +
+                "nome='" + nome + '\'' +
+                ", preco=" + preco +
+                ", qtde=" + qtde +
+                '}';
+    }
 }
