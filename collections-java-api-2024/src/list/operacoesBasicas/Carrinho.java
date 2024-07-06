@@ -14,24 +14,29 @@ public class Carrinho {
     }
 
     public void removerItem (String nome){
-        for(Item i: itens){
-            if(i.getNome().equalsIgnoreCase(nome)){
-                itens.remove(i);
+        List<Item> itensParaRemover = new ArrayList<>();
+        if(!itens.isEmpty()) {
+            for (Item i : itens) {
+                if (i.getNome().equalsIgnoreCase(nome)) {
+                   itensParaRemover.add(i);
+                }
             }
+            itens.removeAll(itensParaRemover);
+        }else{
+            System.out.println("A lista está vazia!");
         }
     }
-
-    public double calcularValorTotal(){
-        double valorTotal = 0;
-        if(!itens.isEmpty()){
-            for(Item i:itens) {
-                double valorItem = i.getPreco() * i.getQtde();
-                valorTotal =+ valorItem;
+    public double calcularValorTotal() {
+        double valorTotal = 0d;
+        if (!itens.isEmpty()) {
+            for (Item item : itens) {
+                double valorItem = item.getPreco() * item.getQtde();
+                valorTotal += valorItem; //valorTotal = valorTotal + valorItem;
             }
-        }else{
-            System.out.println("A lista está vazia");
+            return valorTotal;
+        } else {
+            throw new RuntimeException("A lista está vazia!");
         }
-        return valorTotal;
     }
 
     public void exibirItens(){
@@ -47,7 +52,7 @@ public class Carrinho {
         c1.adicionarItem("Roteador", 154.16, 2);
         c1.adicionarItem("Smartphone", 1500.45, 4);
 
-        c1.calcularValorTotal();
+        System.out.println(c1.calcularValorTotal());
 
         c1.removerItem("roteador");
 
