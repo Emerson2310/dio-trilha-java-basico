@@ -1,3 +1,5 @@
+import java.util.function.Consumer;
+
 public interface IConta {
 
     void depositar(double deposito);

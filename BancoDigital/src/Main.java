@@ -25,8 +25,8 @@ public class Main {
         //cl1.imprimirContasPorTitular();
 
         Banco b1 = new Banco ("Santander");
-        b1.adicionarConta(cl1);
-        b1.adicionarConta(cl2);
+        b1.adicionarContas(cl1);
+        b1.adicionarContas(cl2);
 
         b1.imprimirContasPorBanco();
 

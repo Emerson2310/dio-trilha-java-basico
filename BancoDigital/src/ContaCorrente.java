@@ -1,3 +1,5 @@
+import java.util.function.Consumer;
+
 public class ContaCorrente extends Conta {
 
     public ContaCorrente(Cliente cliente) {
@@ -5,10 +7,9 @@ public class ContaCorrente extends Conta {
         operacao = 002;
     }
 
-    @Override
+
     public void imprimirExtrato() {
-        System.out.println("Extrato conta corrente");
-        System.out.println("\n");
+        System.out.println("\nExtrato conta corrente");
         super.imprimirExtrato();
     }
 }

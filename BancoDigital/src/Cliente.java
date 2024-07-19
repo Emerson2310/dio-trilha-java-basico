@@ -30,19 +30,15 @@ public class Cliente {
     }
 
     public void imprimirContasPorTitular(){
-            System.out.println("Titular: " + getNome());
         for (Conta c: contasPorCliente){
+            System.out.println("\n");
             if(c.getOperacao() == 02){
-                System.out.println("\nConta Corrente");
+                c.imprimirExtrato();
             }else if(c.getOperacao() == 03){
-                System.out.println("\nConta Poupança");
+                c.imprimirExtrato();
             }else{
-                System.out.println("\nConta Salário");
+                c.imprimirExtrato();
             }
-            System.out.println("\nAgencia: " + c.getAgencia());
-            System.out.println("Operação: " + c.getOperacao());
-            System.out.println("Número: " + c.getNumero());
-            System.out.println("Saldo: " + c.getSaldo());
         }
     }
 }
